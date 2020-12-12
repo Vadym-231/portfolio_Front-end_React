@@ -1,0 +1,163 @@
+/*
+container  figure img tags tagsContainer right left content leng
+ */
+.container{
+    margin: 43px;
+    width: 470px;
+    display: inline-block;
+    background-color: aliceblue;
+}
+.figure{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    margin: 0;
+    padding: 7px;
+    padding-bottom: 20px;
+    font-size: 46px;
+    font-variant-caps: all-small-caps;
+    font-family: fantasy;
+}
+.img{
+    width: 100%;
+    height: 320px;
+}
+.tagsContainer{
+
+}
+.link{
+    font-size: 33px;
+    color: black;
+}
+.container_content{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.links{
+
+    vertical-align: middle;
+    background-color: cornflowerblue;
+    padding: 14px;
+    padding-top: 0;
+    border-radius: 13px;
+    position: absolute;
+    margin-top: -26px;
+    z-index: 100;
+    border: 2px solid lightskyblue;
+    box-shadow: 25px 58px 46px 16px inset aliceblue;
+}
+.right{
+
+}
+.left{
+
+}
+.start_ico{
+    width: 85px;
+    vertical-align: middle;
+    height: 50px;
+}
+.content{
+    font-style: italic;
+    margin-top: 65px;
+    font-size: 20px;
+}
+.leng{
+    padding: 2%;
+    margin: 5px;
+    margin-top: 35px;
+    background-color: azure;
+}
+.teg{
+    padding: 2%;
+    font-size: 11px;
+    margin: 5px;
+    margin-bottom: 0;
+    background-color: azure
+}
+.hz{
+    width: 410px;
+    height: 359px;
+}
+.img_mobile{
+    width: 279px;
+    margin-left: 22%;
+    /* height: 283px; */
+    height: 413px;
+}
+@media only screen and (max-width: 1000px) {
+    .container{
+        margin: 43px;
+        width: 75%;
+        display: inline-block;
+        background-color: aliceblue;
+        height: auto;
+    }
+    .figure{
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+        margin: 0;
+        padding: 7px;
+        padding-bottom: 20px;
+        font-size: 26px;
+        font-variant-caps: all-small-caps;
+        font-family: fantasy;
+    }
+    .img{
+
+        height: 257px;
+    }
+    .tagsContainer{
+
+    }
+    .link{
+        font-size: 33px;
+        color: black;
+    }
+    .container_content{
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+    }
+    .links{
+        margin-top: 67px;
+        margin-left: -110px;
+    }
+    .start_ico{
+        width: 51px;
+        vertical-align: middle;
+        height: 30px;
+    }
+    .content{
+        font-style: italic;
+        margin-top: 65px;
+        font-size: 13px;
+    }
+    .leng{
+        padding: 2%;
+        margin: 5px;
+
+        margin-top: 35px;
+        background-color: azure;
+    }
+    .teg{
+        padding: 2%;
+        display: inline-block;
+        margin: 5px;
+        background-color: azure;
+    }
+    .hz{
+        width: 410px;
+        height: 359px;
+    }
+    .img_mobile{
+        margin-left: auto;
+        width: 248px;
+        height: 274px;
+    }
+
+}

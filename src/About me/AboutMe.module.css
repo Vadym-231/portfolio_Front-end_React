@@ -1,0 +1,49 @@
+.text{
+display: inline-block;
+}
+.hello{
+    font-size: 69px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    display: none;
+    border-radius: 50%;
+}
+.main_container{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.container{
+    text-align: center;
+    display: inline-block;
+    font-family: cursive;
+    padding: 30px;
+}
+@media only screen and (max-width: 1000px) {
+
+
+    .text{
+        display: inline-block;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .img{
+        display: none;
+    }
+    .main_container{
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+    .container{
+        width: 100%;
+        font-size: 25px;
+        padding: 0;
+        text-align: center;
+        display: inline-block;
+    }
+}

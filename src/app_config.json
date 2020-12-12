@@ -1,0 +1,6 @@
+{
+  "Define": {
+    "AddProjectsState": "ADD_STATE_OF_PROJECTS",
+    "AddAbout": "ADD_ABOUT_STATE"
+  }
+}
